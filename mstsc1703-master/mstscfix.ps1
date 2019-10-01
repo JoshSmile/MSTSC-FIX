@@ -13,11 +13,11 @@ else
 
 #download files
 
-$url = "https://github.com/JoshSmile/PowerShell/raw/master/mstsc1703-master/mstsc.exe"
+$url = "https://github.com/JoshSmile/MSTSC-FIX/raw/master/mstsc1703-master/mstsc.exe"
 $output = "C:\MSTSC\mstsc.exe"
 Invoke-WebRequest -Uri $url -OutFile $output
 
-$url = "https://github.com/JoshSmile/PowerShell/raw/master/mstsc1703-master/mstscax.dll"
+$url = "https://github.com/JoshSmile/MSTSC-FIX/raw/master/mstsc1703-master/mstscax.dll"
 $output = "C:\MSTSC\mstscax.dll"
 Invoke-WebRequest -Uri $url -OutFile $output
 
